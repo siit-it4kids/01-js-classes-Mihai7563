@@ -39,10 +39,13 @@ let players = [
     new Characters('Marian Lopataru', 'brown', '⛏'),
     new Characters('Vlad Tepes', 'red', '🧛🏻‍♂️'),
     new Characters('Andrei Gucci', 'yellow', '💵'),
-    new Characters('Dorian Popa', 'green', '🍃'),
+    new Characters('Dorian Popa', 'dark green', '🍃'),
     new Characters('Catalin Scarlatescu', 'orange', '🍔'),
     new Characters('Nicolae Ceausescu', 'grey', '🧙‍♂️'),
     new Characters('Osama bin Laden', 'black', '💣')
+    new Characters('Unicorn?', 'pink', '🦄')
+    new Characters('Aristotel', 'white', '🤔')
+    new Characters('Marcus Aurelius', 'teal', '🤴')
 ];
 
 let impostors = players.filter(player => player.isImpostor);
