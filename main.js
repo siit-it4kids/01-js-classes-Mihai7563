@@ -1,6 +1,6 @@
 console.log('main.js loaded!');
 
-class Characters{
+class Character{
     constructor(name, color, avatar){
         this.name = name;
         this.color = color;
@@ -36,16 +36,16 @@ class Characters{
 }
 
 let players = [
-    new Characters('Marian Lopataru', 'brown', '⛏'),
-    new Characters('Vlad Tepes', 'red', '🧛🏻‍♂️'),
-    new Characters('Andrei Gucci', 'yellow', '💵'),
-    new Characters('Dorian Popa', 'dark green', '🍃'),
-    new Characters('Catalin Scarlatescu', 'orange', '🍔'),
-    new Characters('Nicolae Ceausescu', 'grey', '🧙‍♂️'),
-    new Characters('Osama bin Laden', 'black', '💣'),
-    new Characters('Unicorn?', 'pink', '🦄'),
-    new Characters('Aristotel', 'white', '🤔'),
-    new Characters('Marcus Aurelius', 'teal', '🤴')
+    new Character('Marian Lopataru', 'brown', '⛏'),
+    new Character('Vlad Tepes', 'red', '🧛🏻‍♂️'),
+    new Character('Andrei Gucci', 'yellow', '💵'),
+    new Character('Dorian Popa', 'dark green', '🍃'),
+    new Character('Catalin Scarlatescu', 'orange', '🍔'),
+    new Character('Nicolae Ceausescu', 'grey', '🧙‍♂️'),
+    new Character('Osama bin Laden', 'black', '💣'),
+    new Character('Unicorn?', 'pink', '🦄'),
+    new Character('Aristotel', 'white', '🤔'),
+    new Character('Marcus Aurelius', 'teal', '🤴')
 ];
 
 let impostors = players.filter(player => player.isImpostor);
